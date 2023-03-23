@@ -7,7 +7,7 @@ Next I
 For I = 1 To N
     If A = Len(A$(I)) Then
         Print "A STRING WITH "; A; " CHARACTERS WAS FOUND, IT IS A STRING NUMBER: "; I:
-        Print "WRITING IN STRING: "; A$(I)
+        Print "STRING= "; A$(I)
         End
     End If
 Next I
